@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct YouTube_CloneApp: App {
+struct YouTube_Clone: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
