@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01008FFCE2932A2486669848 /* Pods_YouTube_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB65A040EB6257A6752303EB /* Pods_YouTube_Clone.framework */; };
 		047A25A12A1D193B00D7B579 /* YouTube_Clone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25A02A1D193B00D7B579 /* YouTube_Clone.swift */; };
 		047A25A32A1D193B00D7B579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25A22A1D193B00D7B579 /* ContentView.swift */; };
 		047A25A52A1D193D00D7B579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A25A42A1D193D00D7B579 /* Assets.xcassets */; };
 		047A25A82A1D193D00D7B579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A25A72A1D193D00D7B579 /* Preview Assets.xcassets */; };
+		047A25B32A1D1E1C00D7B579 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25B22A1D1E1C00D7B579 /* Constants.swift */; };
+		047A25B52A1D293000D7B579 /* Respons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25B42A1D293000D7B579 /* Respons.swift */; };
+		047A25B72A1D294000D7B579 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25B62A1D294000D7B579 /* Video.swift */; };
+		047A25B92A20BC5300D7B579 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25B82A20BC5300D7B579 /* VideoModel.swift */; };
+		047A25BA2A20C26C00D7B579 /* Pods_YouTube_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB65A040EB6257A6752303EB /* Pods_YouTube_Clone.framework */; };
+		047A25BF2A20C47C00D7B579 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 047A25BE2A20C47C00D7B579 /* Alamofire */; };
+		047A25C12A20DE1700D7B579 /* VideoPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25C02A20DE1700D7B579 /* VideoPreview.swift */; };
+		047A25C32A20E02C00D7B579 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A25C22A20E02C00D7B579 /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,12 @@
 		047A25A22A1D193B00D7B579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		047A25A42A1D193D00D7B579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047A25A72A1D193D00D7B579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		047A25B22A1D1E1C00D7B579 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		047A25B42A1D293000D7B579 /* Respons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respons.swift; sourceTree = "<group>"; };
+		047A25B62A1D294000D7B579 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		047A25B82A20BC5300D7B579 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		047A25C02A20DE1700D7B579 /* VideoPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPreview.swift; sourceTree = "<group>"; };
+		047A25C22A20E02C00D7B579 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		514C85A4F43FAA29A19A5DE7 /* Pods-YouTube-Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTube-Clone.debug.xcconfig"; path = "Target Support Files/Pods-YouTube-Clone/Pods-YouTube-Clone.debug.xcconfig"; sourceTree = "<group>"; };
 		C23CD353AAEA3F7DE57686A2 /* Pods-YouTube-Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTube-Clone.release.xcconfig"; path = "Target Support Files/Pods-YouTube-Clone/Pods-YouTube-Clone.release.xcconfig"; sourceTree = "<group>"; };
 		DB65A040EB6257A6752303EB /* Pods_YouTube_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTube_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,7 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01008FFCE2932A2486669848 /* Pods_YouTube_Clone.framework in Frameworks */,
+				047A25BA2A20C26C00D7B579 /* Pods_YouTube_Clone.framework in Frameworks */,
+				047A25BF2A20C47C00D7B579 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +74,7 @@
 		047A259F2A1D193B00D7B579 /* YouTube-Clone */ = {
 			isa = PBXGroup;
 			children = (
+				047A25B12A1D1E0700D7B579 /* Helpers */,
 				047A25AE2A1D1B9600D7B579 /* View */,
 				047A25AF2A1D1B9D00D7B579 /* ViewModel */,
 				047A25B02A1D1BA500D7B579 /* Model */,
@@ -87,6 +102,8 @@
 		047A25AF2A1D1B9D00D7B579 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				047A25B82A20BC5300D7B579 /* VideoModel.swift */,
+				047A25C02A20DE1700D7B579 /* VideoPreview.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -94,8 +111,19 @@
 		047A25B02A1D1BA500D7B579 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				047A25B42A1D293000D7B579 /* Respons.swift */,
+				047A25B62A1D294000D7B579 /* Video.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		047A25B12A1D1E0700D7B579 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				047A25B22A1D1E1C00D7B579 /* Constants.swift */,
+				047A25C22A20E02C00D7B579 /* CacheManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		4888D255D9945A9A0B65C571 /* Pods */ = {
@@ -133,6 +161,9 @@
 			dependencies = (
 			);
 			name = "YouTube-Clone";
+			packageProductDependencies = (
+				047A25BE2A20C47C00D7B579 /* Alamofire */,
+			);
 			productName = "YouTube-Clone";
 			productReference = 047A259D2A1D193B00D7B579 /* YouTube-Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 047A25942A1D193B00D7B579;
+			packageReferences = (
+				047A25BD2A20C47C00D7B579 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 047A259E2A1D193B00D7B579 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,7 +264,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				047A25A32A1D193B00D7B579 /* ContentView.swift in Sources */,
+				047A25B92A20BC5300D7B579 /* VideoModel.swift in Sources */,
 				047A25A12A1D193B00D7B579 /* YouTube_Clone.swift in Sources */,
+				047A25B52A1D293000D7B579 /* Respons.swift in Sources */,
+				047A25C32A20E02C00D7B579 /* CacheManager.swift in Sources */,
+				047A25B32A1D1E1C00D7B579 /* Constants.swift in Sources */,
+				047A25C12A20DE1700D7B579 /* VideoPreview.swift in Sources */,
+				047A25B72A1D294000D7B579 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +407,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +437,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,6 +473,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		047A25BD2A20C47C00D7B579 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		047A25BE2A20C47C00D7B579 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 047A25BD2A20C47C00D7B579 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 047A25952A1D193B00D7B579 /* Project object */;
 }
